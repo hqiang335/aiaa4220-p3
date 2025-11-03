@@ -185,7 +185,7 @@ The baseline offers two model sizes:
 - **Full version**: ResNet50 + LSTM512 (requires 24GB+ VRAM)
 - **Mini version**: ResNet18 + LSTM128 (requires 6GB+ VRAM)
 
-The pretrained models can be found in [this link](https://drive.google.com/drive/folders/1Bx1L9U345P_9pUfADk3Tnj7uK01EpxZY?usp=sharing). Download it to the root directory.
+The pretrained models can be found in [this link](https://drive.google.com/drive/folders/1Bx1L9U345P_9pUfADk3Tnj7uK01EpxZY?usp=sharing).
 
 #### Single-GPU Training
 
