@@ -256,7 +256,7 @@ class MultiAgentNavReward(Measure):
         distance_to_goal_reward = task.measurements.measures[
             DistanceToGoalReward.cls_uuid
         ].get_metric()
-        social_nav_reward += 1.5 * distance_to_goal_reward  # Slightly reduced reward multiplier
+        social_nav_reward += 1.0 * distance_to_goal_reward  # Slightly reduced reward multiplier 原1.5修改为1.0
 
         # Component 2: Penalize being too close to humans
         distance_to_target = task.measurements.measures[

@@ -51,6 +51,15 @@ habitat:
         lin_speed: 0.0
         ang_speed: -10.0
         allow_dyn_slide: True
+      # agent_0_discrete_move_backward: # 新动作后退
+      #   lin_speed: -25.0
+      #   ang_speed: 0.0
+      #   allow_dyn_slide: True
+      # agent_0_discrete_pause: # 新动作暂停
+      #   lin_speed: 0.0
+      #   ang_speed: 0.0
+      #   allow_dyn_slide: True
+
       agent_1_oracle_nav_randcoord_action_obstacle:
         type: OracleNavRandCoordAction_Obstacle 
         motion_control: human_joints
